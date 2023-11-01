@@ -1,0 +1,25 @@
+[debug] [2023-09-14T18:04:53.695Z] ----------------------------------------------------------------------
+[debug] [2023-09-14T18:04:53.701Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-14T18:04:53.703Z] CLI Version:   12.5.4
+[debug] [2023-09-14T18:04:53.704Z] Platform:      win32
+[debug] [2023-09-14T18:04:53.705Z] Node Version:  v18.16.1
+[debug] [2023-09-14T18:04:53.711Z] Time:          Thu Sep 14 2023 19:04:53 GMT+0100 (West Africa Standard Time)
+[debug] [2023-09-14T18:04:53.712Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-14T18:04:53.734Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-14T18:04:53.873Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-14T18:04:53.874Z] > authorizing via signed-in user (emmanuellangufor@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\travelling-site
+
+[debug] [2023-09-14T18:05:15.142Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: connect ETIMEDOUT 34.120.160.131:443
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-14T18:05:15.146Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json

@@ -93,7 +93,22 @@ h1 {
     font-family: 'Poppins', sans-serif;
     padding-left: 2rem;
     font-style: normal;
+    animation-duration: 3s;
+    animation: fadeIn 5s ease-in-out forwards;
 }
+
+@keyframes fadeIn {
+  from {
+    margin-right: 70%;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0%;
+    opacity: 1;
+  }
+}
+
 
 
 .flex-container {
@@ -111,8 +126,8 @@ h1 {
   text-decoration: none;
   padding: 20px 24px;
   background-color: white;
-
 }
+
 
 header .logo {
   text-decoration: none;
@@ -127,7 +142,7 @@ header .logo {
   animation-name: slideIn;
 }
 
-@keyframes slideIn {
+ @keyframes slideIn {
   from {
     margin-left: 100%;
     width: 300%;
@@ -141,12 +156,31 @@ header .logo {
   font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    color: aliceblue;
-    padding: 45px 4px 4px 4px;
+    color: white;
+    padding: 4px 4px 4px 4px;
     font-family: 'Poppins', sans-serif;
     width: 85%;
     font-style: normal;
     margin-left: 1.5rem;
+    background-color:  #4455f7;
+    opacity: 0.8;
+    z-index: 1;
+    position: relative;
+    margin-top: 3rem;
+    animation-duration: 3s;
+    animation: fadeOut 6s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    margin-left: 70%;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 4%;
+    opacity: 1;
+  }
 }
 
 .body h2 {
@@ -490,7 +524,22 @@ button:hover {
   line-height: 24px;
   color: #344563;
   margin-left: 10px;
+  animation-duration: 3s;
+    animation: fadeOut 7s ease-in-out forwards;
 }
+
+@keyframes fadeOut {
+  from {
+    margin-bottom: 70%;
+    opacity: 0;
+  }
+
+  to {
+    margin-bottom: 0%;
+    opacity: 1;
+  }
+}
+
 
 .my-img img {
   width: 100%;
@@ -603,8 +652,10 @@ button:hover {
   font-size: 1.3rem;
     font-weight: 400;
     width: 100%;
-    margin-left: 1rem;
+    padding: 4px;
     color: #fff;
+    background-color:  #6070ff;;
+    opacity: 0.8;
 }
 
 .contactform1 form {
@@ -866,7 +917,20 @@ button:hover {
 
   .proj-flex {
     display: flex;
+    animation-name: slideUp;
+    animation-duration: 4s;
   }
+
+  @keyframes slideUp {
+    from {
+      margin-top: 50%;
+    }
+  
+    to {
+      margin-top: 0%;
+    }
+  }
+
 
   .project {
     display: flex;
